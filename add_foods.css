@@ -1,0 +1,112 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background: url(images/spice-pasta-lunch-top-fresh.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+
+}
+.containerbox{
+    /*width: 1000px;*/
+    width: 100%;
+    float: right;
+    border: 1px solid none;
+}
+
+.containerbox ul li{
+    width: 250px;
+    float: left;
+    margin: 10px auto;
+    text-align:center;
+}
+.containerbox ul li a{
+   text-decoration: none;
+   color:white;
+}
+.containerbox ul li:hover{
+   /*background-color:wheat;*/
+   background-color:rgb(194, 170, 170);
+}
+.containerbox ul li a:hover{
+   color: white;
+}
+
+
+.tocentertext{
+   text-align:center;
+}
+.cont{
+   
+   margin: auto;
+   width: 80%;
+   padding: 1%;
+  
+}
+.fai{
+   padding: 1%;
+   border: none;
+   font-size: 1rem;
+   border-radius: 5px;
+}
+.faid{
+   background-color:white;
+   cursor: pointer;
+   text-decoration: none;
+}
+.faid:hover{
+    background-color:rgb(194, 170, 170)
+
+}
+
+/* css for whatweoffer */
+.whatweoffer{
+   text-align: center;
+}
+.whatweoffer  a{
+   /*text-decoration: none;*/
+   color:black;
+   text-align:center;
+   bottom: 50px;
+   left: 35%;
+
+   
+}
+
+.menu{
+   width: 300px;
+   height: 300px;
+   display: inline-block;
+   border-radius: 30px;
+   padding: 15px 25px;
+   box-sizing: border-box;
+   cursor: pointer;
+   margin: 10px 15px;
+   background-position: center;
+   background-size: cover;
+   transition: transform 0.5s;
+}
+.menudrinks{
+   
+   background-image:url(images/pexels-ahmad-syahrir-605408.jpg) ; 
+}
+.menupizza{
+   
+   background-image:url(images/pexels-narda-yescas-1566837.jpg) ;
+   
+}
+.menupasta{
+   background-image:url(images/pastabackgrnd.jpg) ;
+   
+}
+
+.menu:hover{
+   transform: translateY(-10px) ;
+}
+.whatweoffer h2{
+   font-size: 2.rem;
+}
+
+
+
+

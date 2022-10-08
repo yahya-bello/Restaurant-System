@@ -1,0 +1,244 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background: url(images/pexels-chan-walrus-941861.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+
+}
+.containerbox{
+    /*width: 1000px;*/
+    width: 100%;
+    float: right;
+    border: 1px solid none;
+}
+
+.containerbox ul li{
+    width: 250px;
+    float: left;
+    margin: 10px auto;
+    text-align:center;
+}
+.containerbox ul li a{
+   /*text-decoration: none;*/
+   color:white;
+}
+.containerbox ul li:hover{
+   /*background-color:wheat;*/
+   background-color:rgb(194, 170, 170)
+}
+.containerbox ul li a:hover{
+   color: white;
+}
+
+
+.tocentertext{
+   text-align:center;
+}
+.cont{
+   
+   margin: auto;
+   width: 80%;
+   padding: 1%;
+  
+}
+.fai{
+   padding: 1%;
+   border: none;
+   font-size: 1rem;
+   border-radius: 5px;
+}
+.faid{
+   background-color:white;
+   cursor: pointer;
+   text-decoration: none;
+}
+.faid:hover{
+    background-color:rgb(194, 170, 170)
+
+}
+
+/* css for whatweoffer */
+.whatweoffer{
+   text-align: center;
+}
+.whatweoffer  a{
+   /*text-decoration: none;*/
+   color:black;
+   text-align:center;
+   bottom: 50px;
+   left: 35%;
+
+   
+}
+
+.menu{
+   width: 315px;
+   height: 315px;
+   display: inline-block;
+   border-radius: 20px;
+   padding: 15px 25px;
+   box-sizing: border-box;
+   cursor: pointer;
+   margin: 10px 15px;
+   background-position: center;
+   background-size: cover;
+   transition: transform 0.5s;
+}
+
+.menupizza{
+   
+   background-image:url(images/pizzabackg3.jpg) ;
+   
+}
+.menupasta{
+    background-image:url(images/spice-pasta-lunch-top-fresh.jpg) ;
+   
+}
+
+.menu:hover{
+   transform: translateY(-10px) ;
+}
+.whatweoffer h2{
+   font-size: 2.rem;
+}
+
+
+
+
+/* css for footer section*/
+.footer{
+   width: 100%;
+   position: absolute;
+   background: linear-gradient(to right, #00093c,#2d0b00);
+   color: #fff;
+   padding: 100px 0 30px;
+   border-top-left-radius: 125px;
+   font-size: 13px;
+   line-height: 20px;   
+}
+.row{
+   width: 85%;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+.coloum{
+  flex-basis: 22%;
+  padding: 10px;
+}
+.coloum:nth-child(2),.coloum:nth-child(3){
+  flex-basis: 15%;
+}
+.lecamerteam{
+ width: 180px;
+ margin-bottom: 30px;
+}
+.coloum h6{
+ width: 180px;
+ margin-bottom: 40px;
+ position: relative;  
+ font-size:large;  
+}
+.emailadd{
+ width: fit-content ;
+ margin-bottom: 1px solid #ccc;
+ margin: 20px 0;
+}
+.footer ul li{
+ list-style: none;
+ margin-bottom: 12px;  
+}
+.footer ul li a{
+ 
+ color: rgb(255, 255, 255);
+}
+
+.coloum form{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solild #ccc;
+  margin-bottom: 50px;
+  color: lawngreen;
+}
+.coloum form far{
+  font-size: 18px;
+  color: lawngreen;
+  margin-right: 10px;
+
+}
+.coloum form input{
+  width: 100%;
+  background: transparent;
+  color:black;
+  border: 0;
+  outline: none;
+  background: white;
+}
+.coloum form button{
+  color: lawngreen;
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.form button .fas{
+  font-size: 16px;
+  color: #ccc;
+}
+.oursocailmedia .fab{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+hr{
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+}
+.copyr{
+  text-align: center;
+}
+.underL{
+  width: 80px;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+.underL span{
+  width: 15px;
+  height: 100%;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+@keyframes moving{
+  0%{
+      left: -20px;
+  }
+  100%{
+      left: 100%;
+  }
+}

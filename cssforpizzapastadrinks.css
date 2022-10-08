@@ -1,0 +1,216 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+   font-family: 'Times New Roman', Times, serif;
+    
+    background: none;
+}
+.cont{
+    
+    margin: auto;
+    width: 80%;
+    padding: 1%;
+   
+}
+.Menu h2{
+    font-size: 2rem;
+}
+.Menu{
+    line-height: 30px;
+    background-color: rgb(194, 194, 194);*/
+    padding: 4% 0;
+}
+.tocentertext{
+    text-align: center;
+}
+.Menu1{
+    border: 1px solid black;
+    width: 42%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.Menu1imgg{
+    width: 40%;
+    float: left;
+}
+.imagecurve{
+    border-radius: 15px;
+}
+
+.Menu1descr{
+    width: 50%;
+    float: left;
+    margin-left: 8%;
+}
+.Menu1price{
+    font-size: 1.2rem;
+    margin: 2% 0 ;
+}
+.Menu1details{
+    font-size: 0.9rem;
+}
+.fai{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.faid{
+    background-color: #400bff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.faid:hover{
+    background-color: rgb(36, 36, 139);
+}
+a {
+    color: white;
+  
+  }
+  .tofixflotingpb{
+    clear: both;
+    float: none;
+}
+
+
+
+
+/* css for footer section*/
+.footer{
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to right, #00093c,#2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;   
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.coloum{
+   flex-basis: 22%;
+   padding: 10px;
+}
+.coloum:nth-child(2),.coloum:nth-child(3){
+   flex-basis: 15%;
+}
+.lecamerteam{
+  width: 180px;
+  margin-bottom: 30px;
+}
+.coloum h6{
+  width: 180px;
+  margin-bottom: 40px;
+  position: relative;  
+  font-size:large;  
+}
+.emailadd{
+  width: fit-content ;
+  margin-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+.footer ul li{
+  list-style: none;
+  margin-bottom: 12px;  
+}
+.footer ul li a{
+  
+  color: rgb(255, 255, 255);
+}
+
+.coloum form{
+   padding-bottom: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solild #ccc;
+   margin-bottom: 50px;
+   color: lawngreen;
+}
+.coloum form far{
+   font-size: 18px;
+   color: lawngreen;
+   margin-right: 10px;
+
+}
+.coloum form input{
+   width: 100%;
+   background: transparent;
+   color:black;
+   border: 0;
+   outline: none;
+   background: white;
+}
+.coloum form button{
+   color: lawngreen;
+   background: transparent;
+   border: 0;
+   outline: none;
+   cursor: pointer;
+}
+
+.form button .fas{
+   font-size: 16px;
+   color: #ccc;
+}
+.oursocailmedia .fab{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 40px;
+   font-size: 20px;
+   color: #000;
+   background: #fff;
+   margin-right: 15px;
+   cursor: pointer;
+}
+
+hr{
+   width: 90%;
+   border: 0;
+   border-bottom: 1px solid #ccc;
+   margin: 20px auto;
+}
+.copyr{
+   text-align: center;
+}
+.underL{
+   width: 80px;
+   height: 5px;
+   background: #767676;
+   border-radius: 3px;
+   position: absolute;
+   top: 25px;
+   left: 0;
+   overflow: hidden;
+}
+.underL span{
+   width: 15px;
+   height: 100%;
+   background: #fff;
+   border-radius: 3px;
+   position: absolute;
+   top: 0;
+   left: 10px;
+   animation: moving 2s linear infinite;
+}
+@keyframes moving{
+   0%{
+       left: -20px;
+   }
+   100%{
+       left: 100%;
+   }
+}

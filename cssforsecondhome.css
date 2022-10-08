@@ -1,0 +1,291 @@
+ 
+ body{
+     font-family: 'Times New Roman', Times, serif;
+     color: white;
+     background: url(images/restaurant-interior.jpg) ;
+     background-repeat: no-repeat;
+     background-size:cover;
+     /*background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0));*/
+     
+
+ }
+.containerbox{
+     /*width: 1000px;*/
+     width: 100%;
+     float: right;
+     border: 1px solid none;
+ }
+
+.containerbox ul li{
+     width: 250px;
+     float: left;
+     margin: 10px auto;
+     text-align:center;
+}
+.containerbox ul li a{
+    /*text-decoration: none;*/
+    color:white;
+}
+.containerbox ul li:hover{
+    /*background-color:wheat;*/
+    background-color:rgb(138, 119, 83);
+}
+.containerbox ul li a:hover{
+    color: white;
+}
+.welcome{
+    width: 300px;
+    height: 200px;
+    opacity: 0.9;
+    padding: 55px;
+   
+   background-color: rgb(207, 177, 132);
+
+}
+.welcome h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100px;
+    color: black;
+}
+.welcome h3{
+    text-align: justify;
+    font-weight: normal;
+    color: black;
+}
+/*.rowrow{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.welcome{
+    flex-basis: 50%;
+}*/
+
+/* css for search bar section */
+.searchbar{
+    /*background-image: url(../images/searchbarbackgrd.jpg);*/
+    /*background-color: wheat;*/
+    padding: 5% ;
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   
+   }
+   .searchbar input[type="Search"]{
+    width:50%;
+    padding: 1%;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: wheat;
+
+}
+.tocentertext{
+    text-align:center;
+}
+.cont{
+    
+    margin: auto;
+    width: 80%;
+    padding: 1%;
+   
+}
+.fai{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.faid{
+    background-color:wheat;
+    cursor: pointer;
+    text-decoration: none;
+}
+.faid:hover{
+    background-color:rgb(138, 119, 83);
+}
+
+/* css for whatweoffer */
+.whatweoffer{
+    text-align: center;
+}
+.whatweoffer  a{
+    /*text-decoration: none;*/
+    color:red;
+    text-align:center;
+    bottom: 50px;
+    left: 35%;
+
+    
+}
+
+.menu{
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.menudrinks{
+    
+    background-image:url(images/pexels-artem-beliaikin-452737.jpg) ; 
+}
+.menupizza{
+    
+    background-image:url(images/pexels-pixabay-315755.jpg) ;
+    
+}
+.menupasta{
+    background-image:url(images/pastabackg25.jpg) ;
+    
+}
+
+.menu:hover{
+    transform: translateY(-10px) ;
+}
+.whatweoffer h2{
+    font-size: 2.rem;
+}
+
+/* css for footer section*/
+.footer{
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to right, #00093c,#2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;   
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.coloum{
+   flex-basis: 22%;
+   padding: 10px;
+}
+.coloum:nth-child(2),.coloum:nth-child(3){
+   flex-basis: 15%;
+}
+.lecamerteam{
+  width: 180px;
+  margin-bottom: 30px;
+}
+.coloum h6{
+  width: 180px;
+  margin-bottom: 40px;
+  position: relative;  
+  font-size:large;  
+}
+.emailadd{
+  width: fit-content ;
+  margin-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+.footer ul li{
+  list-style: none;
+  margin-bottom: 12px;  
+}
+.footer ul li a{
+  
+  color: rgb(255, 255, 255);
+}
+
+.coloum form{
+   padding-bottom: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solild #ccc;
+   margin-bottom: 50px;
+   color: lawngreen;
+}
+.coloum form far{
+   font-size: 18px;
+   color: lawngreen;
+   margin-right: 10px;
+
+}
+.coloum form input{
+   width: 100%;
+   background: transparent;
+   color:black;
+   border: 0;
+   outline: none;
+   background: white;
+}
+.coloum form button{
+   color: lawngreen;
+   background: transparent;
+   border: 0;
+   outline: none;
+   cursor: pointer;
+}
+
+.form button .fas{
+   font-size: 16px;
+   color: #ccc;
+}
+.oursocailmedia .fab{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 40px;
+   font-size: 20px;
+   color: #000;
+   background: #fff;
+   margin-right: 15px;
+   cursor: pointer;
+}
+
+hr{
+   width: 90%;
+   border: 0;
+   border-bottom: 1px solid #ccc;
+   margin: 20px auto;
+}
+.copyr{
+   text-align: center;
+}
+.underL{
+   width: 80px;
+   height: 5px;
+   background: #767676;
+   border-radius: 3px;
+   position: absolute;
+   top: 25px;
+   left: 0;
+   overflow: hidden;
+}
+.underL span{
+   width: 15px;
+   height: 100%;
+   background: #fff;
+   border-radius: 3px;
+   position: absolute;
+   top: 0;
+   left: 10px;
+   animation: moving 2s linear infinite;
+}
+@keyframes moving{
+   0%{
+       left: -20px;
+   }
+   100%{
+       left: 100%;
+   }
+}

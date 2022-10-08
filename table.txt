@@ -1,0 +1,30 @@
+INSERT INTO `type_foods`(`id`, `title`, `img_name`) VALUES (1,'PIZZA','pexels-pixabay-315755');
+INSERT INTO `type_foods`(`id`, `title`, `img_name`) VALUES (2,'PASTA','pexels-pixabay-315755');
+INSERT INTO `type_foods`(`id`, `title`, `img_name`) VALUES (3,'DRINK','pastabackg25');
+
+**** pizza nad thier description
+Cheese Pizza:Made with mozzarella , provolone, cheddar and Parmesan
+Prosciutto e funghi:Topped with tomato sauce, mozzarella, thin slices of prosciutto cotto, and mushrooms
+Pepperoni Pizza :prepared simply with mozzarella, tomato sauce, and pepperoni
+Stuffed Pizza: with tomato sauce before it's baked to perfection.
+Pizza al padellino:from ham and cheese to bell peppers and prosciutto
+Margherita Pizza :has thin crust, fresh tomato sauce, fresh mozzarella cheese 
+Chicken Pizza:Made with use an equal mixture of smoky barbecue and tomato sauces.
+Stromboli: Made with chicken,sauce, and vegetables etc... 
+
+****Pasta and thier description
+Spaghetti :It is thin, cylindrical pasta. served with tomato sauce and with meatballs
+Angel’s hair: it is long and thin and made with light oil-based and cream sauces
+Penne : with dishes that have a relatively thick, creamy sauce and holds the sauce well
+Farfalle :  well suited for tomato-based sauces, cream sauces, and butter or olive oil
+Linguine: served with seafood or pesto,  crispy pancetta and Brussels sprouts
+Rigatoni : paired with chunky sauces full of vegetables or baked into a gratin.
+
+
+*****Drinks and thier description
+Orange juice : to be  Topped up with ice  its refresing  
+Pomegranate Juice : Detox with this refreshing ayurvedic juice, packed  beetroot and pomegranateem
+Mixfruit juice : Fruity, made fruits like apple, mango, orange and some sparkling lemonade
+Very Berry juice : Fruity, made  with mulberries, lime, orange, grape juice and kala khatta
+Kiwi Juice : Refreshing drink with cucumber, kiwi and the zing of Thai ginger
+Watermelon : made with watermelon pieces along with ginger,lemon and lychee topped with lots of ice! 
